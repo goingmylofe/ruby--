@@ -15,6 +15,7 @@ begin
 rescue => ex
 
 
+
 # 例外が発生したら、エラーメッセージ・使用方法を出力して終了。
 me = File.basename($0, '.rb')
 $stderr.puts "#{me}: #{ex}"
